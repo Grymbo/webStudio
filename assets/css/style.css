@@ -7,10 +7,14 @@
 }
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
 }
 body {
     font-size: 16px;
     font-family: "Krub", sans-serif
+}
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 .contenedor {
     max-width: 120rem;
@@ -56,4 +60,6 @@ body {
     background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 450px;
+    padding: 20px;
 }
