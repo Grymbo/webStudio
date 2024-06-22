@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javier Gonzalez - Web_Developer</title>
     <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="preload" href="assets/css/normalize.css" as="style">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
@@ -16,16 +17,17 @@
     <header>
         <h1 class="titulo">Javier Gonzalez <span>Web Developer</span></h1>
     </header>
-
-    <nav>
-        <a href="">Inicio</a>
-        <a href="">Nosotros</a>
-        <a href="">Clientes</a>
-        <a href="">Contacto</a> 
-    </nav>
+    <div class="navBg">
+        <nav class="navegacionTitulo contenedor">
+            <a href="">Inicio</a>
+            <a href="">Nosotros</a>
+            <a href="">Clientes</a>
+            <a href="">Contacto</a> 
+        </nav>
+    </div>
 
     <section>
-        <h2>Diseño y Desarrollo Web</h2>
+        <h2 class="titulo">Diseño y Desarrollo Web</h2>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-check" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffc107" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
