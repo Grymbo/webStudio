@@ -13,7 +13,7 @@ body {
     font-family: "Krub", sans-serif
 }
 .contenedor {
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 /************************ Navegacion ******************************/
@@ -29,9 +29,17 @@ body {
 }
 .navegacionTitulo {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+@media (min-width: 768px){
+    .navegacionTitulo {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 .navegacionTitulo a {
+    display: block;
+    text-align: center;
     color: var(--blanco);
     text-decoration: none;
     font-size: 2rem;
