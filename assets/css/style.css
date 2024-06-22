@@ -27,5 +27,9 @@ body {
     background-color: var(--secundario);
 }
 .navegacionTitulo {
-    
+    padding: 1rem;
+}
+.navegacionTitulo a {
+    color: var(--blanco);
+    text-decoration: none;
 }
