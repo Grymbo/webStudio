@@ -49,11 +49,15 @@ h3 {
     border-radius: 0.5rem;
     width: 90%;
     text-align: center;
+    border: none;
 }
 @media (min-width: 768px){
     .boton {
         width: auto;
     } 
+}
+.boton:hover {
+    cursor: pointer;
 }
 .sombra {
     -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,1);
@@ -63,6 +67,23 @@ h3 {
     padding: 2rem;
     border-radius: 1rem;
 }
+
+/*------------------- Utilidades ---------------------------------*/
+.w-100 {
+    width: 100%;
+}
+@media (min-width: 768px){
+    .w-100 {
+        width: auto;
+    }
+}
+.flex {
+    display: flex;
+}
+.alinear_derecha {
+    justify-content: flex-end;
+}
+
 /************************ Navegacion ******************************/
 .titulo span {
     font-size: 2rem;
@@ -174,4 +195,19 @@ h3 {
     font-weight: bold;
     margin-bottom: 2rem;
     color: var(--primario);
+}
+.campo {
+    margin-bottom: 1rem;
+}
+.campo label {
+    color: var(--blanco);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.input_text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
 }
