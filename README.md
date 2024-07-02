@@ -1,6 +1,6 @@
 # Freelancer-Javier Gonzalez 
 
-[Web Studio](http:/https://grymbo.github.io/webStudio// "Web Studio")
+[Web Studio](http:/https://grymbo.github.io/webStudio/ "Web Studio")
 
 [TOCM]
 
